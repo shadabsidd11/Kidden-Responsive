@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap 5 Example</title>
+</head>
+
+<body>
+
+  <section class="Header-section" style="background-color: #ffe39f;">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid fw-bold">
+          <a class="navbar-brand" href="#">
+            <img src="assets/kidde-Logo.png" alt="Logo" width="95" class="ms-5">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-5 me-5 d-flex align-items-center">
+              <button class="btn m-1 fw-bold" type="submit" style="background-color: #f16027; color: #ffffff;">Online
+                Admission</button>
+              <span id="btn-menu" class="bx bx-menu fs-1 d-none d-lg-block"></span>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+  <!-- --------------------Home Page-------------------- -->
+
+  <section id="home-tab" class="home-tab" style="display: flex;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center hero-main-ig-res position-relative">
+          <div class="home-text fw-bold position-relative">
+            <p class="pt-4" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4">Where Every Child Plays to Learn!</h1>
+            <p class="pt-2">Kindergarten is an early childhood educational environment where most young
+              children engage in learning experiences.</p>
+            <button class="btn  fw-bold admission-button-over" type="submit"
+              style="background-color: #f16027; color: #ffffff;">Enroll YOur Kid!</button>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center position-absolute d-none d-lg-block">
+          <img src="assets/hero-boy.png" alt="Kid Image" id="home-boy-img" class=" img-fluid position-absolute me-5"
+            style="width: 30%; z-index: 1; right: 0;" alt="hero-boy">
+          <img src="assets/hero-girl.png" alt="Kid Image" class="hero-boy-padd img-fluid position-absolute"
+            style="width: 30%; z-index: 1; right: 0;" alt="hero-girl">
+        </div>
+        <div class="babb w-100 px-0">
+          <img src="assets/hero-bottom-shape-01.png" alt="hero-bottom-1"
+            class="img-fluid position-relative hero-bottom-str" style="width: 100%; z-index: 1; right: 0;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------about Page-------------------- -->
+
+  <section class="home-tab-2 mt-5 mb-5 py-5">
+    <div class="container-fluid mt-5 mb-5">
+      <div class="row about-row about-raow position-relative d-flex">
+        <div class="col-lg-6 about-girl-div">
+          <img src="assets/about-girl.png" alt="Kid Image" id="about-girl-img" class=" img-fluid me-5"
+            style="width: 85%;" alt="about-girl">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+          <div class="fw-bold home-2-text">
+            <p class="pt-4" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4">Where Little Hands Create Big Dreams!</h1>
+            <p class="pt-2">Kindergarten is an early childhood educational environment where most young children,
+              typically aged 4 to 6, engage in foundational learning experiences. The focus is on fostering social,
+              emotional, cognitive, and physical development through a mix of structured activities and play. </p> <br>
+            <div class="about-icons-text d-flex">
+              <div class="icon-1 d-flex">
+                <i class='bx bx-home' style="color:#f16027; font-size: 50px;"></i>
+                <h4 class="fw-bold align-items-end">Fully Home Like Environment</h4>
+              </div>
+              <div class="icon-1 d-flex">
+                <i class='bx bx-home' style="color:#f16027; font-size: 50px;"></i>
+                <h4 class="fw-bold align-items-end">100% Quaity Safety
+                  And Security</h4>
+              </div>
+            </div>
+            <br>
+            <div class="about-button-calls d-flex">
+              <button class="btn m-1 fw-bold admission-button-over" type="submit"
+                style="background-color: #f16027; color: #ffffff;">More Aboud Us!</button> &nbsp;&nbsp;&nbsp;
+              <i class='bx bx-phone-call' style="color:#f16027; font-size: 50px;"></i>
+              <div class="call-details-about">
+                <span style="font-size: 15px;">Call For Booking</span> <br>
+                <span style="color: #F9B001; font-size: 25px;">123-456-7890</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------Page 3-------------------- -->
+
+  <section class="home-tab-3 mt-5 mb-5 py-5" style="background-color: #f0efec;">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="page-3-top-content">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center">
+            <p class="pt-4" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4 media-qq">Enrol Your Child In <br> A Session Now!</h1>
+            <p class="media-qqp">Kindergarten is an early childhood educational environment where most
+              young children engage in foundational learning experiences.</p>
+          </div>
+        </div>
+        <div class="container d-flex col-md-12 col-sm-12 align-items-center justify-content-evenly flex-wrap">
+          <div class="card">
+            <img src="assets/post-1.jpg" class="card-img-top" alt="post1">
+            <div class="card-body">
+              <h5 class="card-title">Introducing basic academics</h5>
+              <p class="card-text">Kindergarten is an early childhood educational environment where most young children
+                engage.</p>
+              <a href="/" class="bx bx-right-arrow-alt font-arrow-1" style="font-size: 20px;"></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/post-2.jpg" class="card-img-top" alt="post2">
+            <div class="card-body">
+              <h5 class="card-title">Creativity and Imagination</h5>
+              <p class="card-text">Kindergarten is an early childhood educational environment where most young children
+                engage.</p>
+              <a href="/" class="bx bx-right-arrow-alt font-arrow-2" style="font-size: 20px;"></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/post-3.jpg" class="card-img-top" alt="post3">
+            <div class="card-body">
+              <h5 class="card-title">Problem solving development</h5>
+              <p class="card-text">Kindergarten is an early childhood educational environment where most young children
+                engage.</p>
+              <a href="/" class="bx bx-right-arrow-alt font-arrow-3" style="font-size: 20px;"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------home tab 4------------------ -->
+  <section class="home-tab-4 mt-5 mb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="container col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-around flex-wrap home-tab-4-top">
+          <div class="culll">
+            <p class="Learing-tag fw-bold" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4">Guiding Little Feet on Big Journeys!</h1>
+          </div>
+          <div class="culll">
+            <p class="fw-bold">Kindergarten is an early childhood educational environment where most young children
+              engage in
+              foundational learning experiences.</p>
+            <br>
+            <button class="btn m-1 p-3 fw-bold admission-button-over" type="submit"
+              style="background-color: #f16027; color: #ffffff;">View All Programs</button>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex col-md-12 col-sm-12 align-items-center justify-content-evenly flex-wrap">
+        <div class="card" style="background-color: #dbe79c;">
+          <img src="assets/post-1.jpg" class="card-img-top" alt="post1">
+          <div class="card-body">
+            <h4 class="card-title-page-4"
+              style="color: white; background-color: #A5BE25; border-radius: 100%; text-decoration: none;">Age 2-4 Year
+            </h4>
+            <h4 class="card-title-page-4">Physical Development</h4>
+            <p class="card-text">Kindergarten is an educational environment designed for young children, typically
+              age...</p>
+            <a href="/" class="bx bx-right-arrow-alt font-arrow-1"
+              style="font-size: 20px; background-color: #A5BE25;"></a>
+          </div>
+        </div>
+        <div class="card" style="background-color: #f1ce7c;">
+          <img src="assets/post-2.jpg" class="card-img-top" alt="post2">
+          <div class="card-body">
+            <h4 class="card-title-page-4"
+              style="color: white; background-color: #F9B001; border-radius: 100%; text-decoration: none;">Age 3-5 Year
+            </h4>
+            <h4 class="card-title-page-4">Speech Correction</h4>
+            <p class="card-text">Kindergarten is an educational environment designed for young children, typically
+              age...</p>
+            <a href="/" class="bx bx-right-arrow-alt font-arrow-2"
+              style="font-size: 20px; background-color: #F9B001;"></a>
+          </div>
+        </div>
+        <div class="card" style="background-color: #c6eaff;">
+          <img src="assets/post-3.jpg" class="card-img-top" alt="post3">
+          <div class="card-body">
+            <h4 class="card-title-page-4"
+              style="color: white; background-color: #A3D2EE; border-radius: 100%; text-decoration: none;">Age 2-4 Year
+            </h4>
+            <h4 class="card-title-page-4">Drawing and Colors</h4>
+            <p class="card-text">Kindergarten is an educational environment designed for young children, typically
+              age...</p>
+            <a href="/" class="bx bx-right-arrow-alt font-arrow-3"
+              style="font-size: 20px; background-color: #A3D2EE;"></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ---------------------home tab 5------------------ -->
+
+  <section class="home-tab-5 mt-5 mb-5 py-5" style="background-color: #f0efec;">
+    <div class="container-fluid mt-5 mb-5">
+      <div class="row about-row-boy about-raow position-relative d-flex">
+        <div class="col-lg-6 about-boy-div">
+          <img src="assets/about-boy.png" alt="Kid Image" id="about-boy-img" class=" img-fluid me-5" style="width: 85%;"
+            alt="about-boy">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 ">
+          <div class="fw-bold">
+            <p class="pt-4" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4">A Safe Place to Learn and Grow!</h1>
+            <p class="pt-2">Kindergarten is an early childhood educational environment where most young children engage
+              in
+              foundational learning experiences.</p> <br>
+            <div class="process-barr">
+
+
+              <div class="processs-bar">
+                <div class="Experiences-main">
+                  <div class="d-flex justify-content-between info-written">
+                    <span class="process-top-info">Experiences</span class="process-top-info">
+                    <span class="process-top-info">90%</span class="process-top-info">
+                  </div>
+                  <div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-1" role="progressbar" style="width: 90%" aria-valuenow="100"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <br>
+                <div class="Creativity-main">
+                  <div class="d-flex justify-content-between info-written">
+                    <span class="process-top-info">Creativity</span class="process-top-info">
+                    <span class="process-top-info">75%</span class="process-top-info">
+                  </div>
+                  <div class="progress" style="height: 10px;">
+                    <div class="progress-bar progress-bar-2" role="progressbar" style="width: 75%" aria-valuenow="100"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="enroll-button-about-boy">
+                  <button class="btn  fw-bold admission-button-over" type="submit"
+                    style="background-color: #f16027; color: #ffffff;">Enroll YOur Kid!</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------home tab 6------------------ -->
+
+  <section class="home-tab-5">
+    <div class="container-fluid">
+      <div class="col col-lg-12 d-flex justify-content-between home-6-img-all">
+        <img src="assets/tree-doth.png" alt="home-6-img" class=" position-relative home-6-img" style="width: 10rem;">
+        <img src="assets/black-cat.png" alt="home-6-img" class=" position-relative home-6-img" style="width: 10rem;">
+      </div>
+      <div class="row position-relative home-6-written">
+        <div class="page-6-top-content">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center">
+            <p class="pt-4" style="color: #f16027;">Upcoming Events!</p>
+            <h1 class="fw-bold display-4">Ongoing Events!</h1>
+            <p>Kindergarten is an early childhood educational environment where most young children
+              engage in foundational learning experiences.</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-around flex-wrap">
+        <div class="event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>Education</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content">
+            <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1">$69.00</span></h5>
+            <h4 class="event-img-1-content-title display-6">Garden Party</h4>
+            <p class="event-img-1-content-description">Join us for a delightful day of fun and learning at our annual
+              Little Learners Day! This special event...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-vanue">Venue :</span><span
+                class="event-img-1-content-place">Mellow Function Rooms</span></h5>
+          </div>
+        </div>
+
+        <div class=" event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>classroom</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content">
+            <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1">$59.00</span></h5>
+            <h4 class="event-img-1-content-title display-6">Garden Party</h4>
+            <p class="event-img-1-content-description">Join us for a delightful day of fun and learning at our annual
+              Little Learners Day! This special event...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-vanue">Venue :</span><span
+                class="event-img-1-content-place">Mellow Function Rooms</span></h5>
+          </div>
+        </div>
+
+        <div class=" event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>Classroom</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content">
+            <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1">$49.00</span></h5>
+            <h4 class="event-img-1-content-title display-6">Garden Party</h4>
+            <p class="event-img-1-content-description">Join us for a delightful day of fun and learning at our annual
+              Little Learners Day! This special event...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-vanue">Venue :</span><span
+                class="event-img-1-content-place">Mellow Function Rooms</span></h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ---------------------home tab 7------------------ -->
+
+
+  <section class="home-tab-3 mt-5 mb-5 py-5" style="background-color: #f0efec;">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="page-3-top-content">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center">
+            <p class="pt-4" style="color: #f16027;">Enrol Your Child In A Session Now!</p>
+            <h1 class="fw-bold display-4 media-qq">Enrol Your Child In <br> A Session Now!</h1>
+            <p class="">Kindergarten is an early childhood educational environment where most
+              young children engage in foundational learning experiences.</p>
+          </div>
+        </div>
+        <div
+          class="container d-flex col-md-12 col-sm-12 align-items-center justify-content-evenly flex-wrap page-7-img-panel">
+          <div class="card-page-7">
+            <div class="team-1-img-div">
+              <img src="assets/team-1.jpg" alt="team-1" class="team-1-img">
+            </div>
+            <div class="team-1-img-content">
+              <h5 class="team-1-img-content-name"><span class="team-1-img-content-name1">Stephen Miller</span></h5>
+              <h5 class="team-1-img-content-designation"><span class="team-1-img-content-designation1">Literacy
+                  Teacher</span></h5>
+            </div>
+          </div>
+          <div class="card-page-7">
+            <div class="team-1-img-div">
+              <img src="assets/team-2.jpg" alt="team-1" class="team-1-img">
+            </div>
+            <div class="team-1-img-content">
+              <h5 class="team-1-img-content-name"><span class="team-1-img-content-name1">Abraham McGraw</span></h5>
+              <h5 class="team-1-img-content-designation"><span class="team-1-img-content-designation1">Preschoold
+                  Teacher</span></h5>
+            </div>
+          </div>
+          <div class="card-page-7">
+            <div class="team-1-img-div">
+              <img src="assets/team-3.jpg" alt="team-1" class="team-1-img">
+            </div>
+            <div class="team-1-img-content">
+              <h5 class="team-1-img-content-name"><span class="team-1-img-content-name1">Fiorella Ibáñez</span></h5>
+              <h5 class="team-1-img-content-designation"><span class="team-1-img-content-designation1">Music
+                  Teacher</span></h5>
+            </div>
+          </div>
+          <div class="card-page-7">
+            <div class="team-1-img-div">
+              <img src="assets/team-4.jpg" alt="team-1" class="team-1-img">
+            </div>
+            <div class="team-1-img-content">
+              <h5 class="team-1-img-content-name"><span class="team-1-img-content-name1">Scott Gonzalez</span></h5>
+              <h5 class="team-1-img-content-designation"><span class="team-1-img-content-designation1">Learning
+                  Teacher</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ---------------------home tab 8------------------ -->
+
+
+  <section class="home-tab-8 mt-5 mb-5 py-5">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="page-3-top-content">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center">
+            <p class="pt-4" style="color: #f16027;">Testimonials!</p>
+            <h1 class="fw-bold display-4">What do parents say about us!</h1>
+            <p class="">Kindergarten is an early childhood educational environment where most
+              young children engage in foundational learning experiences.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex col-md-12 col-sm-12 align-items-center justify-content-evenly flex-wrap">
+        <div
+          class="container d-flex col-md-12 col-sm-12 align-items-center justify-content-evenly flex-wrap home8-main-div">
+          <div class="home8-team1-img-name" style="background-color: #ffdfd3; border-radius: 20px;">
+            <div class="home8-team1-img-name1">
+              <div class="home8-team1-img" style="width: 80px; height: 70px;">
+                <img src="assets/team-1.jpg" alt="team1" class="home8-team1-img11" style="width: 70px; height: 70px;">
+              </div>
+              <div class="home8-team1-name">
+                <h5><span class="home8-team1-name-name">Stephen Miller</span></h5>
+                <h5><span class="home8-team1-name-desig">Engineer</span></h5>
+              </div>
+            </div>
+            <br>
+            <div class="">
+              <h5>love this kindergarten! The teachers are incredibly caring and patient, creating a warm and welcoming
+                environment for the children. The curriculum is well-rounded.</h5>
+              <div class="d-flex justify-content-start">
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+              </div>
+            </div>
+          </div>
+          <div class="home8-team1-img-name" style="background-color: #ccecff; border-radius: 20px;">
+            <div class="home8-team1-img-name1">
+              <div class="home8-team1-img" style="width: 80px; height: 70px;">
+                <img src="assets/team-2.jpg" alt="team1" class="home8-team1-img11" style="width: 70px; height: 70px;">
+              </div>
+              <div class="home8-team1-name">
+                <h5><span class="home8-team1-name-name">Fiorella Ibáñez</span></h5>
+                <h5><span class="home8-team1-name-desig">Pharmacist</span></h5>
+              </div>
+            </div>
+            <br>
+            <div class="">
+              <h5>love this kindergarten! The teachers are incredibly caring and patient, creating a warm and welcoming
+                environment for the children. The curriculum is well-rounded.</h5>
+              <div class="d-flex justify-content-start">
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+              </div>
+            </div>
+          </div>
+          <div class="home8-team1-img-name" style="background-color: #e0f2c0; border-radius: 20px;">
+            <div class="home8-team1-img-name1">
+              <div class="home8-team1-img" style="width: 80px; height: 70px;">
+                <img src="assets/team-3.jpg" alt="team1" class="home8-team1-img11" style="width: 70px; height: 70px;">
+              </div>
+              <div class="home8-team1-name">
+                <h5><span class="home8-team1-name-name">Abraham McGraw</span></h5>
+                <h5><span class="home8-team1-name-desig">Journalist</span></h5>
+              </div>
+            </div>
+            <br>
+            <div class="">
+              <h5>love this kindergarten! The teachers are incredibly caring and patient, creating a warm and welcoming
+                environment for the children. The curriculum is well-rounded.</h5>
+              <div class="d-flex justify-content-start">
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+                <i class='bx bxs-star' style='color:#ff9529'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ---------------------home tab 9------------------ -->
+
+
+  <section class="home-tab-9 mt-5 mb-5 py-5">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="page-9-top-content position-relative">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center position-relative">
+            <p class="pt-4" style="color: #f16027;">Learning is an Adventure!</p>
+            <h1 class="fw-bold display-4">Where Learning<br> is an Adventure!</h1>
+            <p class="mt-3">Kindergarten is an early childhood educational environment<br> where most young children
+              engage in foundational</p>
+          </div>
+          <div class="enroll-button-about-boy justify-content-center align-items-center text-center mt-5">
+            <button class="btn  fw-bold admission-button-over" type="submit"
+              style="background-color: #f16027; color: #ffffff;">Apply For Admission</button>
+          </div>
+          <div class="tab-9-img d-flex justify-content-between">
+            <div class="tab-9-img-1">
+              <img src="assets/cta-illustration-01.png" alt="" class="tab-9-img-1-img img-all-tab-9">
+            </div>
+            <div class="tab-9-img-2">
+              <img src="assets/cta-illustration-02.png" alt="" class="tab-9-img-2-img img-all-tab-9">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ---------------------home tab 10------------------ -->
+
+
+  <section class="home-tab-5">
+    <div class="container-fluid">
+      <div class="col col-lg-12 d-flex justify-content-between home-6-img-all">
+        <img src="assets/bear-in-tree.png" alt="home-6-img" class=" position-relative home-6-img" style="width: 10rem;">
+        <img src="assets/tree-doth-right.png" alt="home-6-img" class=" position-relative home-6-img"
+          style="width: 10rem;">
+      </div>
+      <div class="row position-relative home-6-written">
+        <div class="page-6-top-content">
+          <div class="fw-bold home-page-3-text justify-content-center align-items-center text-center">
+            <p class="pt-4" style="color: #f16027;">Blog News Articles!</p>
+            <h1 class="fw-bold display-4">Explore Blogs And News!</h1>
+            <p>Kindergarten is an early childhood educational environment where most young children engage in
+              foundational learning experiences.</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-around flex-wrap">
+        <div class="event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>Education</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content1">
+            <div class="d-flex justify-content-between home-10-span">
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i class='bx bx-user'
+                    style='color:#ff9529'></i>&nbsp;DynamicLayers</span></h5>
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i
+                    class='bx bxs-calendar' style='color:#ff9529'></i>August 13,2024</span></h5>
+            </div>
+            <h4 class="event-img-1-content-title">Discovering the Joys of Child Kindergarten...</h4>
+            <p class="event-img-1-content-description">The digital landscape is vast and changing, presenting for
+              businesses. From social media platforms...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-place">Read More&nbsp;<i
+                  class='bx bx-right-arrow-alt tab-10-arrow-1'></i></span></h5>
+          </div>
+        </div>
+
+        <div class=" event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>classroom</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content">
+            <div class="d-flex justify-content-between home-10-span">
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i class='bx bx-user'
+                    style='color:#ff9529'></i>&nbsp;DynamicLayers</span></h5>
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i
+                    class='bx bxs-calendar' style='color:#ff9529'></i>August 13,2024</span></h5>
+            </div>
+            <h4 class="event-img-1-content-title">Kindergarten: Play Come Toget...</h4>
+            <p class="event-img-1-content-description">The digital landscape is vast and changing, presenting for
+              businesses. From social media platforms...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-place">Read More&nbsp;<i
+                  class='bx bx-right-arrow-alt tab-10-arrow-1'></i></span></h5>
+          </div>
+        </div>
+
+        <div class=" event-image">
+          <div class="event-img-1">
+            <img src="assets/post-8.jpg" alt="" style="width: 22rem;" class="event-ig-flx-all">
+            <div class="eent-education">
+              <h5 class="event-relative-text"><span>Classroom</span></h5>
+            </div>
+          </div>
+          <div class="event-img-1-content position-relative">
+            <div class="d-flex justify-content-between home-10-span">
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i class='bx bx-user'
+                    style='color:#ff9529'></i>&nbsp;DynamicLayers</span></h5>
+              <h5 class="event-img-1-content-amount"><span class="event-img-1-content-amount1"><i
+                    class='bx bxs-calendar' style='color:#ff9529'></i>August 13,2024</span></h5>
+            </div>
+            <h4 class="event-img-1-content-title position-relative">Creating Friendships, Memories...</h4>
+            <p class="event-img-1-content-description position-relative">The digital landscape is vast and changing,
+              presenting for businesses. From social media platforms...</p>
+            <h5 class="event-img-1-content-vanue-all"><span class="event-img-1-content-place">Read More&nbsp;<i
+                  class='bx bx-right-arrow-alt tab-10-arrow-1'></i></span></h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!-- ---------------------home tab 11------------------ -->
+
+
+  <section class="home-tab-11 mt-5">
+    <div class="container-fluid ">
+      <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-around flex-wrap">
+        <div class="container d-flex flex-wrap align-items-center">
+          <div class="tab-11-1-rw tab-11-rw-med" style="width: 17rem; height: 21rem;">
+            <a class="Kidden-brand" href="#">
+              <img src="assets/kidde-Logo.png" alt="Logo" width="105" class="bottom-kidden-img">
+            </a>
+            <p class="mt-3">Kindden is an early childhood education school where all children, typically aged 4 to 6,
+              begin their
+              learning journey.</p>
+            <div class="tab-11-social-med-all d-flex">
+              <a href="#" class="tab-11-social-med text-dark p-3"><i
+                  class='bx bxl-facebook-circle tab-11-social-med1'></i></a>&nbsp;
+              <a href="#" class="tab-11-social-med text-dark p-3"><i
+                  class='bx bxl-twitter tab-11-social-med1'></i></a>&nbsp;
+              <a href="#" class="tab-11-social-med text-dark p-3"><i
+                  class='bx bxl-tiktok tab-11-social-med1'></i></i></a>&nbsp;
+              <a href="#" class="tab-11-social-med text-dark p-3"><i
+                  class='bx bxl-youtube tab-11-social-med1'></i></a>&nbsp;
+            </div>
+          </div>
+          <div class="tab-11-2-rw tab-11-rw-med" style="width: 17rem; height: 21rem;">
+            <h5 class="fw-bold">&nbsp;&nbsp;&nbsp;Information</h5>
+            <ul class="tab-11-prim-clr">
+              <li><a href="#" style="text-decoration: none;" class="text-dark">Kindergarten</a></li>
+              <li><a href="#" style="text-decoration: none;" class="text-dark">Our Teachers</a></li>
+              <li><a href="#" style="text-decoration: none;" class="text-dark">Blog Page</a></li>
+              <li><a href="#" style="text-decoration: none;" class="text-dark">Help And Faqs</a></li>
+              <li><a href="#" style="text-decoration: none;" class="text-dark">Contact</a></li>
+            </ul>
+          </div>
+          <div class="tab-11-3-rw tab-11-rw-med" style="width: 17rem; height: 21rem;">
+            <div class="contact-address-tab">
+              <h5 class="fw-bold">Contact Us</h5>
+              <span class="contact-tab-heading">Address<br></span>
+              <span class="contact-tab-body">Germany — 785 15h Street, Office 478 Berlin, De 81566<br></span>
+            </div>
+            <div class="contact-phone-tab">
+              <span class="contact-tab-heading">Phone<br></span>
+              <span class="contact-tab-body">(704) 555-0127<br></span>
+            </div>
+            <div class="contact-mail-tab">
+              <span class="contact-tab-heading">Mail Us<br></span>
+              <span class="contact-tab-body">kidden@example.com</span>
+            </div>
+          </div>
+          <div class="tab-11-4-rw tab-11-rw-med" style="width: 17rem; height: 21rem;">
+            <h5 class="fw-bold">Newsletter Signup</h5>
+            <div class="input-group mb-3">
+              <input type="email" name="email" placeholder="Your email address">
+              <button class="btn " style="background-color: #f16027;" type="submit" id="email"><i class='bx bxs-send'
+                  style='color:#ffffff'></i></button>
+            </div>
+            <p>Get the latest updates and offers for business services yearly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer pt-2" style="background-color: #a5be25;">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center align-items-center flex-wrap">
+        <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-wrap">
+          <p class="text-center text-light">© Copyright 2025 ThemeEaster. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>

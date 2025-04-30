@@ -1,0 +1,481 @@
+* {
+    font-family: poppins, sans-serif;
+}
+
+#home-tab {
+    background-color: #ffe39f;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.babb{
+    z-index: 2;
+}
+
+.Enroll-kid{
+    background-color: #f16027;
+    color: white;
+    font-weight: bold;
+}
+
+#home-boy-img{
+    margin-right: 200px !important;
+}
+
+.home-text{
+    /* top: 25%; */
+    position: relative;
+    z-index: 19;
+}
+
+.admission-button-over{
+position: relative;
+z-index: 9;
+}
+
+.hero-bottom-str{
+    margin-top: -180px;
+}
+
+.hero-boy-padd{
+    margin-top: -10px;
+}
+
+
+
+
+
+.about-row{
+    display: flex !important;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1440px) {
+    .home-text {
+        margin-top: 100px;
+        position: relative;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+    .home-text {
+        margin-top: 100px;
+        position: relative;
+    }
+    
+}
+
+
+
+/* home tab 3----------------------- */
+
+
+.home-tab-3{
+    font-family: poppins, sans-serif;
+}
+
+.card-title{
+    line-height: 46px;
+    font-size: 30px;
+}
+
+
+
+.card-text{
+    font-size: 15x;
+    line-height: 20px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-img-top{
+    justify-content: center;
+} 
+    
+.card{
+    width: 20rem;
+    box-shadow: none;
+}
+
+
+
+
+.font-arrow-1{
+    text-shadow: #F15F25;
+    background-color: #F15F25;
+    border-radius: 15%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.font-arrow-2{
+    text-shadow: #A3D2EE;
+    background-color: #A3D2EE;
+    border-radius: 15%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.font-arrow-3{
+    text-shadow: #A5BE25;
+    background-color: #A5BE25;
+    border-radius: 15%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+    .card, .media-qq {
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+/* page 4-----------------------  */
+
+.culll{
+    width: 20rem;
+}
+
+.home-tab-4-top{
+    display: flex;
+}
+
+.card-body-page-4{
+    text-align: center;
+    
+}
+
+.card-title-page-4{
+    font-size: 25px;
+}
+
+
+@media (max-width: 1024px) {
+    .culll {
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+
+
+
+/* page 5-----------------------  */
+
+.home-tab-5{
+    font-family: poppins, sans-serif;
+}
+
+.about-row-boy{
+    display: flex !important;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+
+
+.process-top-info{
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.progress-bar-1{
+    background-color: #A5BE25;
+}
+
+.progress-bar-2{
+    background-color: #fccb44;
+}
+
+@media (max-width: 768px) {
+    .home-6-img {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .home-6-written {
+        margin-top: -100px;
+    }
+    
+}
+
+
+
+/* page 6-----------------------  */
+
+.home-tab-6{
+    font-family: poppins, sans-serif;
+}
+
+/* .event-ig-flx-all{
+    justify-content: center;
+} */
+
+.event-image{
+    width: 22rem;
+    
+}
+
+.event-img-1-content{
+    top: -50px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin-left: 25px;
+    width: 19rem;
+    border-radius: 10px;
+    box-shadow: #9fa0a1 0px 0px 20px;
+}
+
+.event-img-1-content-vanue-all{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event-img-1-content-vanue{
+    color: #F12F25;
+}
+
+.eent-education{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 100px;
+    background-color: #A5BE25;
+    border-radius: 7px;
+    color: white;
+}
+
+.event-relative-text{
+    text-align: center;
+    align-items: center;
+    vertical-align: text-bottom;
+    align-self: center;
+    align-content: center;
+}
+
+.event-img-1{
+    position: relative;
+}
+
+/* @media (max-width: 1024px) {
+    .event-image {
+        width: 90%;
+        margin-top: 50px;
+    }
+} */
+
+
+
+
+/* page 7-----------------------  */
+.home-tab-7{
+    font-family: poppins, sans-serif;
+}
+
+/* .card-page-7
+{
+    border-radius: 20px;
+    border: 2px solid #A5BE25;
+} */
+
+.team-1-img{
+    justify-content: center;
+    width: 15rem;
+} 
+
+.team-1-img-content{
+    padding-top: 15px;
+    padding-bottom: 7px;
+    background-color: white;
+}
+
+.team-1-img-content-name, .team-1-img-content-name1{
+    font-size: 20px;
+}
+
+.team-1-img-content-designation, .team-1-img-content-designation1{
+    font-size: 15px;
+    color: #F15F25;
+}
+
+
+.card-page-7{
+    box-shadow: none;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+    .card-page-7 {
+        margin-top: 50px;
+    }
+}
+
+
+
+/* page 8-----------------------  */
+.home-tab-8{
+    font-family: poppins, sans-serif;
+}
+
+.home8-team1-img-name1{
+    display: flex;
+}
+
+
+
+.home8-team1-img-name{
+    padding: 20px;
+    width: 18rem;
+    height: 20rem;
+}
+
+    
+
+.home8-team1-img, .home8-team1-img11 {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home8-team1-name{
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.home8-team1-name-name{
+    font-size: 20px;
+}
+
+.home8-team1-name-desig{
+    color: #ff9529;
+    font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+    .home8-team1-img-name{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+/* page 9-----------------------  */
+
+.home-tab-9{
+    font-family: poppins, sans-serif;
+}
+
+.tab-9-img{
+    display: flex;
+}
+
+.tab-9-img-1-img, .tab-9-img-2-img{
+    position: relative;
+    width: 200px;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .img-all-tab-9 {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .img-all-tab-9 {
+        margin-top: -110px;
+    }
+    
+}
+
+
+
+
+/* page 10-----------------------  */
+.home-tab-10{
+    font-family: poppins, sans-serif;
+}
+
+.event-img-1-content1{
+    top: -50px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin-left: 25px;
+    width: 19rem;
+    border-radius: 10px;
+    box-shadow: #9fa0a1 0px 0px 20px;
+}
+
+.home-10-span, .event-img-1-content-amount{
+    font-size: 12px;
+}
+
+.tab-10-arrow-1{
+    position: relative;
+}
+
+
+
+
+
+/* page 11-----------------------  */
+.home-tab-11{
+    font-family: poppins, sans-serif;
+}
+
+.tab-11-prim-clr{
+    color: #F15F25;
+    line-height: 40px;
+}
+
+.tab-11-social-med1{
+    background-color: rgb(207, 206, 206);
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.contact-tab-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F15F25;
+    margin: 0%;
+}
+
+.contact-tab-body{
+    font-size: 15px;
+    margin: 0%;
+}
+
+.tab-11-2-rw{
+    margin: 0%;
+}
+
+.contact-phone-tab, .contact-mail-tab, .input-group{
+    padding-top: 10px;
+}
